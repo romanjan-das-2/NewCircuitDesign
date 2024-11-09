@@ -60,19 +60,28 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <a name="clabelup" val="east"/>
     <a name="clabelfont" val="SansSerif plain 12"/>
     <wire from="(320,290)" to="(320,310)"/>
+    <wire from="(930,310)" to="(930,340)"/>
+    <wire from="(930,340)" to="(1110,340)"/>
     <wire from="(750,310)" to="(750,340)"/>
+    <wire from="(750,340)" to="(930,340)"/>
     <wire from="(250,340)" to="(750,340)"/>
     <wire from="(250,310)" to="(320,310)"/>
     <wire from="(340,270)" to="(390,270)"/>
     <wire from="(210,310)" to="(250,310)"/>
     <wire from="(250,310)" to="(250,340)"/>
+    <wire from="(1110,310)" to="(1110,340)"/>
+    <comp lib="4" loc="(820,270)" name="RAM">
+      <a name="addrWidth" val="4"/>
+    </comp>
+    <comp lib="4" loc="(340,270)" name="Counter"/>
+    <comp lib="4" loc="(1000,270)" name="RAM"/>
     <comp lib="0" loc="(210,310)" name="Clock"/>
+    <comp lib="4" loc="(1180,270)" name="RAM"/>
     <comp lib="4" loc="(530,270)" name="ROM">
-      <a name="contents">addr/data: 8 8
+      <a name="dataWidth" val="32"/>
+      <a name="contents">addr/data: 8 32
 0
 </a>
     </comp>
-    <comp lib="4" loc="(820,270)" name="RAM"/>
-    <comp lib="4" loc="(340,270)" name="Counter"/>
   </circuit>
 </project>
