@@ -453,7 +453,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="dataWidth" val="32"/>
       <a name="contents">addr/data: 8 32
 0 5c060200 2a050301 a050302 48020282 38010302 4c040081 48020282
-2a070101 2e010302 562f1881 560b1882 e2050200
+32070101 36010302 562f1881 560b1882 e2050200
 </a>
     </comp>
     <comp lib="0" loc="(1340,1040)" name="Constant">
